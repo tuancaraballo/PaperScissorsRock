@@ -58,7 +58,7 @@ public class MainActivity extends ActionBarActivity {
             Toast toast = Toast.makeText(this, "You rock! Click Reset to restart the game", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 400);
             toast.show();
-            freezeAllButtons();
+            freezeAllButtons(); // freeze the buttons
         }
     }
 
